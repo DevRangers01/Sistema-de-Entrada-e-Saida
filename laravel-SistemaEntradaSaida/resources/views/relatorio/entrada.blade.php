@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório de entradas e saídas</title>
-    <link rel="stylesheet" href="entradaesaida.css">
+    <link rel="stylesheet" href="style.css">
     <script src="entradaesaida.js" type="text/javascript" defer></script>
-    <style>
-        @vite([resources/css/entradaesaida.css]);
-    </style>
-   
 </head>
 
 <body>
@@ -18,6 +14,10 @@
         <center>
             <h1>Relatório de entradas e saídas</h1>
         </center>
+
+            <img src="adicao.png" class="mais" alt="logo">
+            <img src="atualizar.png" class="atualizar" alt="atualizar">
+            <img src="ferramenta-lapis.png" class="lapin" alt="lápis">
 
     </div>
     <div class="porteiro">Porteiro: Jessé</div>
@@ -39,6 +39,8 @@
                 <td scope=>Morador</td>
                 <td scope=>Entrou<br> 22h25</td>
                 <td scope=>Placa do veículo<br> CAI0B13</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
         </thead>
 
@@ -48,54 +50,72 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 19h21</td>
                 <td>Placa do veículo<br>ISO9J24</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Marcelo Lage<br> AP 09 BL B 12982356798</th>
                 <td>Morador</td>
                 <td>Entrou<br> 13h40 </td>
                 <td>Placa do veículo<br> JOA0M21</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Ramon Menezes<br> AP 09 BL B 12982356798</th>
                 <td>Visitante</td>
                 <td>Entrou<br> 09h10</td>
                 <td>Placa do veículo<br>MON3I20</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Lucas Martinez<br> AP 09 BL B 12982356798</th>
                 <td>Visitante</td>
                 <td>Entrou<br> 23h10</td>
                 <td>Placa do veículo<br>ING4D16</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Giovanna Peres<br> AP 09 BL B 12982356798</th>
                 <td>Morador</td>
                 <td>Entrou<br> 12h50</td>
                 <td>Placa do veículo<br>ISA8E16</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Mário Aiala<br> AP 09 BL B 12982356798</th>
                 <td>Morador</td>
                 <td>Entrou<br> 14h34</td>
                 <td>Placa do veículo<br>IGO2D44</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Maria Joaquina<br> AP 09 BL B 12982356798</th>
                 <td>Visitante</td>
                 <td>Entrou<br> 05h16</td>
                 <td>Placa do veículo<br>ISO9J24</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Cirilo Rivera<br> AP 09 BL B 12982356798</th>
                 <td>Morador</td>
                 <td>Entrou<br> 08h23</td>
                 <td>Placa do veículo<br>ISO9J24</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
                 <th scope="row">Davi Augusto<br> AP 09 BL B 12982356798</th>
                 <td>Visitante</td>
                 <td>Entrou<br> 20h11</td>
                 <td>Placa do veículo<br>ISO9J24</td>
+                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
         </tbody>
     </table><br><br>
@@ -119,7 +139,10 @@
             </ul>
         </nav>
     </center>
-    <img src="logo.jpeg" alt="Logo" class="logo">
+
+    <center>
+    <img src="logodevrangers.png" alt="Logo" class="logo">
+    </center>
 
 </body>
 

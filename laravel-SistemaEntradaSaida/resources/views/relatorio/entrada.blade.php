@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório de entradas e saídas</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="entradaesaida.js" type="text/javascript" defer></script>
+    
+    @vite(['resources/css/entrada.css']);
 </head>
 
 <body>
@@ -15,9 +15,9 @@
             <h1>Relatório de entradas e saídas</h1>
         </center>
 
-            <img src="adicao.png" class="mais" alt="logo">
-            <img src="atualizar.png" class="atualizar" alt="atualizar">
-            <img src="ferramenta-lapis.png" class="lapin" alt="lápis">
+            <img src="img/adicao.png" class="mais" alt="logo">
+            <img src="img/atualizar.png" class="atualizar" alt="atualizar">
+            <img src="img/ferramenta-lapis.png" class="lapin" alt="lápis">
 
     </div>
     <div class="porteiro">Porteiro: Jessé</div>
@@ -39,7 +39,7 @@
                 <td scope=>Morador</td>
                 <td scope=>Entrou<br> 22h25</td>
                 <td scope=>Placa do veículo<br> CAI0B13</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
         </thead>
@@ -50,7 +50,7 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 19h21</td>
                 <td>Placa do veículo<br>ISO9J24</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -58,7 +58,7 @@
                 <td>Morador</td>
                 <td>Entrou<br> 13h40 </td>
                 <td>Placa do veículo<br> JOA0M21</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -66,7 +66,7 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 09h10</td>
                 <td>Placa do veículo<br>MON3I20</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -74,7 +74,7 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 23h10</td>
                 <td>Placa do veículo<br>ING4D16</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -82,7 +82,7 @@
                 <td>Morador</td>
                 <td>Entrou<br> 12h50</td>
                 <td>Placa do veículo<br>ISA8E16</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -90,7 +90,7 @@
                 <td>Morador</td>
                 <td>Entrou<br> 14h34</td>
                 <td>Placa do veículo<br>IGO2D44</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -98,7 +98,7 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 05h16</td>
                 <td>Placa do veículo<br>ISO9J24</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -106,7 +106,7 @@
                 <td>Morador</td>
                 <td>Entrou<br> 08h23</td>
                 <td>Placa do veículo<br>ISO9J24</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
             <tr>
@@ -114,7 +114,7 @@
                 <td>Visitante</td>
                 <td>Entrou<br> 20h11</td>
                 <td>Placa do veículo<br>ISO9J24</td>
-                <td scope=> <img src="olho.png" class="olin" alt="olho"></td>
+                <td scope=> <img src="img/olho.png" class="olin" alt="olho"></td>
                 <td scope=> <img src="lata-de-lixo.png" class="olin" alt="lixo"></td>
             </tr>
         </tbody>

@@ -7,9 +7,9 @@
     <title>Relatório de entradas e saídas</title>
     <link rel="stylesheet" href="entradaesaida.css">
     <script src="entradaesaida.js" type="text/javascript" defer></script>
-    <style>
-        @vite([resources/css/entradaesaida.css]);
-    </style>
+    
+        @vite(['resources/css/entradaesaida.css']);
+   
    
 </head>
 

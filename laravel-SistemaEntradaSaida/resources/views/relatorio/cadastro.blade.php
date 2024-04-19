@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório de entradas e saídas</title>
-    <style>
-      @vite([resources/css/cadastro.css]);
-    </style>
+    
+      @vite(['resources/css/cadastro.css']);
+ 
     
     
 </head>

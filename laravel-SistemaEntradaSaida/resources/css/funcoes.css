@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FFFFFF 50%, #F4BC21);
+}
+
+.header {
+    background-color: #F4BC21;
+    padding: 5px; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+.function-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.function-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.function-item:hover {
+    background-color: #f0f0f0;
+}
+
+.function-name {
+    font-weight: bold;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.btn-edit {
+    margin-left: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: scale(1.1); /* Efeito de escala */
+}
+
+.btn-delete {
+    margin-left: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b; /* Vermelho mais escuro */
+    transform: scale(1.1); /* Efeito de escala */
+}
+
+.btn-add {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin: 20px;
+    margin-left: 2px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #218838; 
+    transform: scale(1.03);
+}
+
+.btn-back {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4BC21;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #DAA519; 
+    transform: scale(1.03); /* efeito qnd passa o mouse */
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+/* Estilos especÃ­ficos para os links dentro dos botÃµes */
+.btn-link .btn-edit {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.btn-link .btn-edit:hover {
+    text-decoration: none; /* Remover sublinhado ao passar o mouse */
+}

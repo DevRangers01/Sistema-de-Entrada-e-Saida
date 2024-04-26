@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-class CadastroController
+class AdicionarController
 {
     public function index(){
-        return view('relatorio\cadastro');
+        return view('relatorio\adicionar');
     }
 }

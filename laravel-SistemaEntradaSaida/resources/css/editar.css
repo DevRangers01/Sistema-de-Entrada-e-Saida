@@ -64,7 +64,7 @@ input, textarea {
     text-decoration: none; 
 }
 
-.btn-save:hover {
+button {
     background-color: #0060c6; /* Verde */
     transform: scale(1.03); /* efeito de crescer qnd passa o mouse */
 }

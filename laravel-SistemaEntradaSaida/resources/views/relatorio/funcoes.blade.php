@@ -14,7 +14,7 @@
 
   <div class="container">
     <h1>Lista de Funções</h1>
-    <a class="btn-link" href="{{ route('function.create') }}"><button class="btn-add">Adicionar função</button></a>
+    <a class="btn-link" href="{{ route('editar.create') }}"><button class="btn-add">Adicionar função</button></a>
     <ul class="function-list">
       <li class="function-item">
         Morador

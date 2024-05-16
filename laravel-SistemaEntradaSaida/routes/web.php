@@ -57,4 +57,10 @@ Route::post('/employeers/update', [EmployeerController::class, 'update']);
 Route::get('/posts/create', [PostController::class, 'create']);
 Route::post('/posts/update', [PostController::class, 'update']);
 
+Route::get('/editar/create', [EditarController::class, 'create'])->name('editar.create');
+Route::post('/editar/create', [EditarController::class, 'store']);
 
+Route::get('/editar/update/{id}', [EditarController::class, 'update'])->name('editar.update');
+Route::post('/editar/update/{id}', [EditarController::class, 'edit']);
+
+Route::get('/editar/delete/{id}', [EditarController::class, 'deleteColumn'])->name('deleteColumn');
